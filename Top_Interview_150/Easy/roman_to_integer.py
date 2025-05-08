@@ -1,5 +1,6 @@
 """
 13. Roman to Integer
+Category: Array / String
 
 Intuition:
 Roman numerals are normally added together from left to right.
@@ -48,4 +49,4 @@ class Solution:
 if __name__ == "__main__":
     s = "MCMXCIV"
     print("Integer value:", Solution().romanToInt(s))  # Output: 1994
-    
+   

@@ -1,5 +1,6 @@
 """
 28. Find the Index of the First Occurrence in a String
+Category: Array / String
 
 Intuition:
 We need to find where the needle string starts inside the haystack string.
@@ -30,4 +31,4 @@ if __name__ == "__main__":
     print(Solution().strStr("leetcode", "leeto"))   # Output: -1
     print(Solution().strStr("hello", "ll"))         # Output: 2
     print(Solution().strStr("aaaaa", "bba"))        # Output: -1
-    
+   

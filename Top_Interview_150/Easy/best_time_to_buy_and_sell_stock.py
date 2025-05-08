@@ -1,5 +1,6 @@
 """
 121. Best Time to Buy and Sell Stock
+Category: Array / String
 
 Intuition:
 To maximize profit, we want to buy at the lowest price before selling at the highest price.
@@ -47,4 +48,3 @@ if __name__ == "__main__":
     print("Max profit:", Solution().maxProfit(prices))  # Output: 5
     prices = [7, 6, 4, 3, 1]
     print("Max profit:", Solution().maxProfit(prices))  # Output: 0
-    

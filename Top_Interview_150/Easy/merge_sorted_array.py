@@ -1,5 +1,6 @@
 """
 88. Merge Sorted Array
+Category: Array / String
 
 Intuition:
 We need to merge two sorted arrays into one sorted array. Instead of creating a new array,
@@ -58,4 +59,4 @@ if __name__ == "__main__":
 
     Solution().merge(nums1, m, nums2, n)
     print("Merged array:", nums1)  # Output: [1, 2, 2, 3, 5, 6]
-    
+   

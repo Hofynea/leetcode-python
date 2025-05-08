@@ -1,5 +1,6 @@
 """
 169. Majority Element
+Category: Array / String
 
 Intuition:
 The majority element appears more than ⌊n / 2⌋ times. So if we track a candidate and balance it against others,

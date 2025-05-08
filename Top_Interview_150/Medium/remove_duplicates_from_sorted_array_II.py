@@ -1,5 +1,6 @@
 """
 80. Remove Duplicates from Sorted Array II
+Category: Array / String
 
 Intuition:
 Since the array is sorted, duplicates are together. We can keep at most 2 of each number.
@@ -48,4 +49,3 @@ if __name__ == "__main__":
     nums = [1,1,1,2,2,2,3,3]
     k = Solution().removeDuplicates(nums)
     print("After removal:", nums[:k])  # Output: [1, 1, 2, 2, 3, 3]
-
