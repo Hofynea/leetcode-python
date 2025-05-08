@@ -1,5 +1,6 @@
 """
 14. Longest Common Prefix
+Category: Array / String
 
 Intuition:
 Start with the first word as a candidate prefix.
@@ -45,4 +46,3 @@ if __name__ == "__main__":
     print("Longest common prefix:", Solution().longestCommonPrefix(strs))  # Output: "a"
     strs = ["ab", "a"]
     print("Longest common prefix:", Solution().longestCommonPrefix(strs))  # Output: "a"
-    

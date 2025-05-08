@@ -1,5 +1,6 @@
 """
 58. Length of Last Word
+Category: Array / String
 
 Intuition:
 We need the length of the last word in a string. The string may have extra spaces.

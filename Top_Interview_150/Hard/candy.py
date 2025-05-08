@@ -1,5 +1,6 @@
 """
 135. Candy
+Category: Array / String
 
 Intuition:
 We need to give out the minimum number of candies so:
@@ -43,4 +44,4 @@ if __name__ == "__main__":
     print(Solution().candy([1, 2, 2]))  # Output: 4
     print(Solution().candy([1, 3, 2, 2, 1]))  # Output: 7
     print(Solution().candy([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))  # Output: 55
-    
+   

@@ -1,5 +1,6 @@
 """
 26. Remove Duplicates from Sorted Array
+Category: Array / String
 
 Intuition:
 The array is sorted in non-decreasing order, so duplicates are grouped together.
@@ -47,4 +48,3 @@ if __name__ == "__main__":
     k = Solution().removeDuplicates(nums)
     print("Length after deduplication:", k)
     print("Modified array:", nums[:k])  # Output: [1, 2]
-    

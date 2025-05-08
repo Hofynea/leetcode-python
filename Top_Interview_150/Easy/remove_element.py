@@ -1,5 +1,6 @@
 """
 27. Remove Element
+Category: Array / String
 
 Intuition:
 We need to remove all instances of a specific value from the list in-place. Since the order 
